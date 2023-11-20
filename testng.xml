@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="aniket" value="Firefox"></parameter>
+	  <classes>
+		  <class name="onlineClass.test4"></class>
+	  </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="Test1">
+	  <parameter name="aniket" value="Chrome"></parameter>
+	  <classes>
+		  <class name="onlineClass.test4"></class>
+	  </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+	  <parameter name="aniket" value="Edge"></parameter>
+	  <classes>
+		  <class name="onlineClass.Tet4"></class>
+	  </classes>
+  </test>
+</suite> <!-- Suite -->
